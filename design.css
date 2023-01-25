@@ -2,6 +2,7 @@
     --text-color-1: rgba(24, 33, 109, 1);
     --text-color-2: rgba(24, 33, 109, 0.6);
     --button-color: rgba(0, 236, 208, 1);
+    --button-colorhover: yellow;
     background-color: white;
     font-style: normal;
     font-size: 62.5%;
@@ -21,6 +22,7 @@ a {
 }
 
 p{
+
     text-align: center;
     font-weight: 400;
     font-size: 1.4rem;
@@ -41,6 +43,11 @@ p{
     padding: 1.1rem 1.7rem;
 }
 
+.button:hover {
+    background-color: var(--button-colorhover);
+    transition: 0.7s;
+}
+
 .buttonmenu {
     margin-left: 20.8rem;
     padding-top: 4.5rem;
@@ -49,7 +56,9 @@ p{
     border: none;
 }
 
-.texth1{
+h1
+{
+    padding-top: 4.1rem;
     text-align: center;
     font-weight: 600;
     font-size: 2.8rem;
