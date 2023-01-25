@@ -3,16 +3,40 @@
     --text-color-2: rgba(24, 33, 109, 0.6);
     --button-color: rgba(0, 236, 208, 1);
     background-color: white;
-
+    font-style: normal;
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
     font-weight: 500;
     box-sizing: border-box;
 }
 
+a {
+    display: inline-block;
+    padding-left: 1.6rem;
+    padding-top: 4.1rem;
+}
+
+.button {
+    background-color: var(--button-color);
+    color: var(--text-color-1);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    border-radius: 1rem;
+    border: none;
+    padding: 1.1rem 1.7rem;
+}
+
+.buttonmenu {
+    margin-left: 20.8rem;
+    padding-top: 4.5rem;
+    padding-right: 2.8rem;
+    background-color: white;
+    border: none;
+}
+
 .texth1{
     text-align: center;
-    font-style: normal;
     font-weight: 600;
     font-size: 2.8rem;
     line-height: 2.7rem;
@@ -20,14 +44,12 @@
 }
 .p1{
     text-align: center;
-    font-style: normal;
     font-weight: 400;
     font-size: 1.4rem;
     line-height: 2.0rem;
     color: var(--text-color-1);
 }
 .texth2{
-    font-style: normal;
     font-weight: 600;
     font-size: 2.4rem;
     line-height: 2.4rem;
@@ -36,40 +58,17 @@
 }
 
 .texth3{
-    font-style: normal;
-font-weight: 600;
-font-size: 2.0rem;
-line-height: 2.4rem;
-color: var(--text-color-1);
-text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: var(--text-color-1);
+    text-align: center;
 }
 
 .pricetext{
-    font-style: normal;
-font-weight: 400;
-font-size: 1.4rem;
-line-height: 2.4rem;
-color: var(--text-color-2);
-text-align: left;
-}
-
-.button {
-    background-color: var(--button-color);
-    color: var(--text-color-1);
-    font-style: normal;
     font-weight: 400;
     font-size: 1.4rem;
-    line-height: 1.7rem; 
-
-    border-radius: 1rem;
-    border: none;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    width: 100%;
-    max-width: 342px;
-    display: block; 
-    margin-left: auto;
-    margin-right: auto;
+    line-height: 2.4rem;
+    color: var(--text-color-2);
+    text-align: left;
 }
-
-.headerImage {}
