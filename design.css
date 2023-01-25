@@ -1,12 +1,13 @@
 :root {
     --text-color-1: rgba(24, 33, 109, 1);
-    --text-color-2: rgba(201, 205, 209, 1);
+    --text-color-2: rgba(24, 33, 109, 0.6);
     --button-color: rgba(0, 236, 208, 1);
     background-color: white;
 
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
     font-weight: 500;
+    box-sizing: border-box;
 }
 
 .texth1{
@@ -31,6 +32,7 @@
     font-size: 2.4rem;
     line-height: 2.4rem;
     color: var(--text-color-1);
+    text-align: center;
 }
 
 .texth3{
@@ -39,6 +41,7 @@ font-weight: 600;
 font-size: 2.0rem;
 line-height: 2.4rem;
 color: var(--text-color-1);
+text-align: center;
 }
 
 .pricetext{
@@ -47,13 +50,26 @@ font-weight: 400;
 font-size: 1.4rem;
 line-height: 2.4rem;
 color: var(--text-color-2);
+text-align: left;
 }
 
 .button {
+    background-color: var(--button-color);
+    color: var(--text-color-1);
     font-style: normal;
     font-weight: 400;
     font-size: 1.4rem;
-    line-height: 1.7rem;
+    line-height: 1.7rem; 
+
+    border-radius: 1rem;
+    border: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+    max-width: 342px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .headerImage {}
