@@ -10,13 +10,27 @@
     box-sizing: border-box;
 }
 
+*, :before, :after {
+    box-sizing: inherit;
+}
+
 a {
     display: inline-block;
     padding-left: 1.6rem;
     padding-top: 4.1rem;
 }
 
+p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: var(--text-color-1);
+}
+
 .button {
+    display: block;
+    margin: 0 auto;
     background-color: var(--button-color);
     color: var(--text-color-1);
     font-weight: 400;
@@ -42,13 +56,7 @@ a {
     line-height: 2.7rem;
     color: var(--text-color-1);
 }
-.p1{
-    text-align: center;
-    font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 2.0rem;
-    color: var(--text-color-1);
-}
+
 .texth2{
     font-weight: 600;
     font-size: 2.4rem;
@@ -66,8 +74,6 @@ a {
 }
 
 .pricetext{
-    font-weight: 400;
-    font-size: 1.4rem;
     line-height: 2.4rem;
     color: var(--text-color-2);
     text-align: left;
